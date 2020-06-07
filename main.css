@@ -1,0 +1,236 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+h1 {
+  color: hotpink;
+  font-size: 4rem;
+}
+
+.winner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.2s ease infinite alternate;
+  animation: bounce 0.2s ease infinite alternate;
+  font-family: "Kavoon", cursive;
+  font-size: 6rem;
+  line-height: 110px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ffd59e, 0 2px 0 #ffa684, 0 3px 0 #feb4be, 0 4px 0 #d8a7cd, 0 5px 0 #9bdaca, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 0 transparent, 0 11px 0 transparent, 0 12px 0 transparent, 0 13px 0 transparent, 0 14px 0 transparent, 0 15px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(1) {
+  color: #ffd59e;
+}
+
+h1 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  color: #ffa684;
+}
+
+h1 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  color: #feb4be;
+}
+
+h1 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  color: #d8a7cd;
+}
+
+h1 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  color: #9bdaca;
+}
+
+h1 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  color: #ffd59e;
+}
+
+h1 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  color: #ffa684;
+}
+
+h1 span:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  color: #feb4be;
+}
+
+h1 span:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  color: #d8a7cd;
+}
+
+h1 span:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  color: #9bdaca;
+}
+
+h1 span:nth-child(11) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  color: #ffd59e;
+}
+
+h1 span:nth-child(12) {
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+  color: #ffa684;
+}
+
+h1 span:nth-child(13) {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  color: #feb4be;
+}
+
+h1 span:nth-child(14) {
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+  color: #d8a7cd;
+}
+
+h1 span:nth-child(15) {
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.4s;
+  color: #9bdaca;
+}
+
+h1 span:nth-child(16) {
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.5s;
+  color: #ffd59e;
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ffd59e, 0 2px 0 #ffa684, 0 3px 0 #feb4be, 0 4px 0 #d8a7cd, 0 5px 0 #9bdaca, 0 6px 0 #ffd59e, 0 7px 0 #ffa684, 0 8px 0 #feb4be, 0 9px 0 #d8a7cd, 0 10px 0 #9bdaca, 0 11px 0 #ffd59e, 0 12px 0 #ffa684, 0 13px 0 #feb4be, 0 14px 0 #d8a7cd, 0 15px 0 #9bdaca, 0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ffd59e, 0 2px 0 #ffa684, 0 3px 0 #feb4be, 0 4px 0 #d8a7cd, 0 5px 0 #9bdaca, 0 6px 0 #ffd59e, 0 7px 0 #ffa684, 0 8px 0 #feb4be, 0 9px 0 #d8a7cd, 0 10px 0 #9bdaca, 0 11px 0 #ffd59e, 0 12px 0 #ffa684, 0 13px 0 #feb4be, 0 14px 0 #d8a7cd, 0 15px 0 #9bdaca, 0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+h1 .success_message {
+  font-family: "Kavoon", cursive;
+  font-size: 3rem;
+  color: #efeaee;
+}
+
+h1 .success_submessage {
+  font-family: "Kavoon", cursive;
+  font-size: 1.5rem;
+  color: #efeaee;
+}
+
+.stars,
+.twinkling,
+.clouds {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.stars {
+  z-index: -1;
+  background: #000 url("https://image.ibb.co/mjnygo/stars.png") repeat top center;
+}
+
+.twinkling {
+  z-index: 1;
+  background: transparent url("https://image.ibb.co/ir1DE8/twinkling.png") repeat top center;
+  -webkit-animation: move-twink-back 200s linear infinite;
+          animation: move-twink-back 200s linear infinite;
+}
+
+.clouds {
+  z-index: 2;
+  background: transparent url("https://image.ibb.co/bT4N7T/clouds.png") repeat top center;
+  -webkit-animation: move-clouds-back 200s linear infinite;
+          animation: move-clouds-back 200s linear infinite;
+}
+
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@-webkit-keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
