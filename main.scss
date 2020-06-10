@@ -163,6 +163,34 @@ h1 .success_submessage {
   //color: #2d261f;
 }
 
+// Modal
+
+.modal {
+  .btn {
+    width: 100vw;
+
+    &-info {
+      //background-color: #0890B5;
+      font-family: 'Nunito', sans-serif;
+    }
+  }
+
+  &-body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+
+  &-content {
+    background: #232526;
+    background: -webkit-linear-gradient(315deg, #fba8a4 0%, #dad2f3 74%);
+    background: linear-gradient(315deg, #fba8a4 0%, #dad2f3 74%);
+  }
+
+  &-footer {
+    border-top: 1px solid #dad2f3  !important;
+  }
+}
+
 // Star Background by Nazar The Vis Azhar, Codepen
 
 .stars,

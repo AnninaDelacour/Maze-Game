@@ -166,6 +166,28 @@ h1 .success_submessage {
   color: #efeaee;
 }
 
+.modal .btn {
+  width: 100vw;
+}
+
+.modal .btn-info {
+  font-family: 'Nunito', sans-serif;
+}
+
+.modal-body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+.modal-content {
+  background: #232526;
+  background: linear-gradient(315deg, #fba8a4 0%, #dad2f3 74%);
+}
+
+.modal-footer {
+  border-top: 1px solid #dad2f3  !important;
+}
+
 .stars,
 .twinkling,
 .clouds {
